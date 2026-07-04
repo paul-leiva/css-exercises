@@ -12,6 +12,25 @@ img {
   font-weight: 900;
 }
 
+/* SOLUTION */
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  width: 200px;
+  gap: 52px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
