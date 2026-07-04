@@ -1,3 +1,7 @@
+* {
+  /* outline: 2px solid red; */
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
@@ -22,4 +26,21 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+/* Solution */
+.header {
+  /* outline: 2px solid red; */
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  /* outline: 2px solid blue; */
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
